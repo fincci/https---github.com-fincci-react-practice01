@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Text title="Text do be transformed" color="orange"/>
-      <Button/>
+      <Button label="Esta é a label do botão"/>
     </>
   );
 }
