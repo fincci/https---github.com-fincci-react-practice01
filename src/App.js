@@ -5,7 +5,7 @@ import Text from './components/text/text';
 function App() {
   return (
     <>
-      <Text/>
+      <Text title="Text do be transformed" color="orange"/>
       <Button/>
     </>
   );
