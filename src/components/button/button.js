@@ -1,12 +1,12 @@
 import './button.css'
 
-const event = (props) => {
+const alertLabel = (props) => {
     alert(props.label)
 }
 
 const Button = (props) => {
     return (
-        <button className="btn" onClick={() => event(props)}>Text transform</button>
+        <button className="btn" onClick={() => alertLabel(props)}>Text transform</button>
     )
 }
 export default Button
